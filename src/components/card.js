@@ -35,5 +35,5 @@ class Card extends Component {
         )
     }
 }
-
+/*Two way binding in react with inputs and state*/
 export default Card;
