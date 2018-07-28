@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Basic skeleton codebase for React with Bootstrap applications.",
   "scripts": {
-    "postinstall": "cp env.example.js env.js",
+    "postinstall": "copy env.example.js env.js",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
     "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress --display-error-details --color",
     "heroku-postbuild": "npm run build",
@@ -44,7 +44,7 @@
     "babel-polyfill": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.1.18",
-    "bootstrap": "^4.0.0-alpha.5",
+    "bootstrap": "4.1.1",
     "clean-webpack-plugin": "^0.1.16",
     "copy-webpack-plugin": "^4.0.1",
     "cross-env": "^5.0.1",
