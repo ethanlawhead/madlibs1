@@ -3,13 +3,13 @@
     display: grid;
 
     justify-items: center;
-    //align-items: center;
+    align-items: center;
     grid-template-rows: [header-s] 218px [header-e card-s] minmax(736px, 994px) [card-e];
 }
 
-//.header {
-//    align-self: center;
-//}
+.header {
+    align-self: center;
+}
 
 .card {
     min-height: 736px;
