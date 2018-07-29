@@ -14,4 +14,10 @@ import Card from './card';
   }
 }
 
+// things to fix
+// place holder
+// gray and green num labels
+// content labels
+// generate button space / card height
+
 export default Home;
